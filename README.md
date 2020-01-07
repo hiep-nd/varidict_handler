@@ -1,5 +1,5 @@
 # Varidict Handler
-A ObjC helper to use varidict handler.
+A ObjC helper to use varidict handler.
 And one line of code is worth a thousand words.
 ```objectivec
 @interface Consumer
@@ -75,7 +75,7 @@ consumer.handler = ^BOOL(id consumer){
   Do somethings with consumer as parameter and return,
   but no ones care about the return value.
  */ 
-	return YES;
+  return YES;
 };
 
 ```
