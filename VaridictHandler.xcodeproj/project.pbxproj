@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA37D3AA23BF501D0074C96B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3A923BF501D0074C96B /* AppDelegate.m */; };
+		BA37D3AD23BF501D0074C96B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3AC23BF501D0074C96B /* ViewController.m */; };
+		BA37D3B023BF501D0074C96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37D3AE23BF501D0074C96B /* Main.storyboard */; };
+		BA37D3B223BF501E0074C96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA37D3B123BF501E0074C96B /* Assets.xcassets */; };
+		BA37D3B523BF501E0074C96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37D3B323BF501E0074C96B /* LaunchScreen.storyboard */; };
+		BA37D3B823BF501E0074C96B /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3B723BF501E0074C96B /* main.mm */; };
+		BA37D3C223BF501E0074C96B /* VaridictHandlerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3C123BF501E0074C96B /* VaridictHandlerTests.mm */; };
+		BA37D3E523BF5DFB0074C96B /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3E123BF57560074C96B /* CTBlockDescription.m */; };
+		BA753D5E23C2406100073225 /* NDCaller0_1.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3DD23BF54B10074C96B /* NDCaller0_1.mm */; };
+		BA753D5F23C2406300073225 /* NDCaller0_0.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3DA23BF54A60074C96B /* NDCaller0_0.mm */; };
+		BA753D6023C243DF00073225 /* NDCaller.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA37D3D723BF52D30074C96B /* NDCaller.mm */; };
+		BA753D6323C2448300073225 /* NDCaller1_0.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6223C2448300073225 /* NDCaller1_0.mm */; };
+		BA753D6823C306B500073225 /* CallTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6723C306B500073225 /* CallTests.mm */; };
+		BA753D6A23C30DD700073225 /* Call.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6923C30DD700073225 /* Call.mm */; };
+		BA753D6C23C325E300073225 /* NDCallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6B23C325E300073225 /* NDCallerTests.m */; };
+		BA753D6E23C3487300073225 /* NDCallerConsumerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6D23C3487300073225 /* NDCallerConsumerTests.m */; };
+		BA753D7023C3492A00073225 /* CallConsumerTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA753D6F23C3492A00073225 /* CallConsumerTests.mm */; };
+		BA753D7323C34A7300073225 /* ConsumerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA753D7223C34A7300073225 /* ConsumerTests.m */; };
+		BA753D7623C4237D00073225 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BA753D7423C4237D00073225 /* LICENSE */; };
+		BA753D7723C4237D00073225 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA753D7523C4237D00073225 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA37D3BE23BF501E0074C96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA37D39D23BF501D0074C96B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA37D3A423BF501D0074C96B;
+			remoteInfo = VaridictHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA37D3A523BF501D0074C96B /* VaridictHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaridictHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37D3A823BF501D0074C96B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA37D3A923BF501D0074C96B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA37D3AB23BF501D0074C96B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA37D3AC23BF501D0074C96B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA37D3AF23BF501D0074C96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA37D3B123BF501E0074C96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA37D3B423BF501E0074C96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA37D3B623BF501E0074C96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37D3B723BF501E0074C96B /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		BA37D3BD23BF501E0074C96B /* VaridictHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaridictHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37D3C123BF501E0074C96B /* VaridictHandlerTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = VaridictHandlerTests.mm; sourceTree = "<group>"; };
+		BA37D3C323BF501E0074C96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37D3CD23BF51A70074C96B /* NDHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDHandler.h; sourceTree = "<group>"; };
+		BA37D3CE23BF51A70074C96B /* NDCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDCaller.h; sourceTree = "<group>"; };
+		BA37D3D623BF52D30074C96B /* NDCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDCaller.h; sourceTree = "<group>"; };
+		BA37D3D723BF52D30074C96B /* NDCaller.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDCaller.mm; sourceTree = "<group>"; };
+		BA37D3D923BF54A60074C96B /* NDCaller0_0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDCaller0_0.h; sourceTree = "<group>"; };
+		BA37D3DA23BF54A60074C96B /* NDCaller0_0.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDCaller0_0.mm; sourceTree = "<group>"; };
+		BA37D3DC23BF54B10074C96B /* NDCaller0_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDCaller0_1.h; sourceTree = "<group>"; };
+		BA37D3DD23BF54B10074C96B /* NDCaller0_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDCaller0_1.mm; sourceTree = "<group>"; };
+		BA37D3E023BF57560074C96B /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBlockDescription.h; sourceTree = "<group>"; };
+		BA37D3E123BF57560074C96B /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBlockDescription.m; sourceTree = "<group>"; };
+		BA37D3E323BF578B0074C96B /* CTObjectiveCRuntimeAdditions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTObjectiveCRuntimeAdditions-Prefix.pch"; sourceTree = "<group>"; };
+		BA37D3E423BF57C10074C96B /* VaridictHandler.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VaridictHandler.pch; sourceTree = "<group>"; };
+		BA753D6123C2448300073225 /* NDCaller1_0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDCaller1_0.h; sourceTree = "<group>"; };
+		BA753D6223C2448300073225 /* NDCaller1_0.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NDCaller1_0.mm; sourceTree = "<group>"; };
+		BA753D6423C3048600073225 /* Call.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Call.h; sourceTree = "<group>"; };
+		BA753D6723C306B500073225 /* CallTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CallTests.mm; sourceTree = "<group>"; };
+		BA753D6923C30DD700073225 /* Call.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Call.mm; sourceTree = "<group>"; };
+		BA753D6B23C325E300073225 /* NDCallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDCallerTests.m; sourceTree = "<group>"; };
+		BA753D6D23C3487300073225 /* NDCallerConsumerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDCallerConsumerTests.m; sourceTree = "<group>"; };
+		BA753D6F23C3492A00073225 /* CallConsumerTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CallConsumerTests.mm; sourceTree = "<group>"; };
+		BA753D7123C34A7300073225 /* ConsumerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsumerTests.h; sourceTree = "<group>"; };
+		BA753D7223C34A7300073225 /* ConsumerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsumerTests.m; sourceTree = "<group>"; };
+		BA753D7423C4237D00073225 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA753D7523C4237D00073225 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA37D3A223BF501D0074C96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37D3BA23BF501E0074C96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA37D39C23BF501D0074C96B = {
+			isa = PBXGroup;
+			children = (
+				BA37D3A723BF501D0074C96B /* VaridictHandler */,
+				BA37D3C023BF501E0074C96B /* VaridictHandlerTests */,
+				BA37D3A623BF501D0074C96B /* Products */,
+				BA753D7423C4237D00073225 /* LICENSE */,
+				BA753D7523C4237D00073225 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		BA37D3A623BF501D0074C96B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA37D3A523BF501D0074C96B /* VaridictHandler.app */,
+				BA37D3BD23BF501E0074C96B /* VaridictHandlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA37D3A723BF501D0074C96B /* VaridictHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BA37D3DF23BF57120074C96B /* CTObjectiveCRuntimeAdditions */,
+				BA37D3CC23BF51750074C96B /* Abstracts */,
+				BA37D3D523BF52AF0074C96B /* Callers */,
+				BA37D3A823BF501D0074C96B /* AppDelegate.h */,
+				BA37D3A923BF501D0074C96B /* AppDelegate.m */,
+				BA37D3AB23BF501D0074C96B /* ViewController.h */,
+				BA37D3AC23BF501D0074C96B /* ViewController.m */,
+				BA37D3AE23BF501D0074C96B /* Main.storyboard */,
+				BA37D3B123BF501E0074C96B /* Assets.xcassets */,
+				BA37D3B323BF501E0074C96B /* LaunchScreen.storyboard */,
+				BA37D3B623BF501E0074C96B /* Info.plist */,
+				BA37D3B723BF501E0074C96B /* main.mm */,
+				BA37D3E423BF57C10074C96B /* VaridictHandler.pch */,
+			);
+			path = VaridictHandler;
+			sourceTree = "<group>";
+		};
+		BA37D3C023BF501E0074C96B /* VaridictHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA37D3C123BF501E0074C96B /* VaridictHandlerTests.mm */,
+				BA753D7123C34A7300073225 /* ConsumerTests.h */,
+				BA753D7223C34A7300073225 /* ConsumerTests.m */,
+				BA753D6F23C3492A00073225 /* CallConsumerTests.mm */,
+				BA753D6D23C3487300073225 /* NDCallerConsumerTests.m */,
+				BA753D6B23C325E300073225 /* NDCallerTests.m */,
+				BA753D6723C306B500073225 /* CallTests.mm */,
+				BA37D3C323BF501E0074C96B /* Info.plist */,
+			);
+			path = VaridictHandlerTests;
+			sourceTree = "<group>";
+		};
+		BA37D3CC23BF51750074C96B /* Abstracts */ = {
+			isa = PBXGroup;
+			children = (
+				BA37D3CD23BF51A70074C96B /* NDHandler.h */,
+				BA37D3CE23BF51A70074C96B /* NDCaller.h */,
+			);
+			path = Abstracts;
+			sourceTree = "<group>";
+		};
+		BA37D3D523BF52AF0074C96B /* Callers */ = {
+			isa = PBXGroup;
+			children = (
+				BA753D6423C3048600073225 /* Call.h */,
+				BA753D6923C30DD700073225 /* Call.mm */,
+				BA37D3D623BF52D30074C96B /* NDCaller.h */,
+				BA37D3D723BF52D30074C96B /* NDCaller.mm */,
+				BA37D3D923BF54A60074C96B /* NDCaller0_0.h */,
+				BA37D3DA23BF54A60074C96B /* NDCaller0_0.mm */,
+				BA37D3DC23BF54B10074C96B /* NDCaller0_1.h */,
+				BA37D3DD23BF54B10074C96B /* NDCaller0_1.mm */,
+				BA753D6123C2448300073225 /* NDCaller1_0.h */,
+				BA753D6223C2448300073225 /* NDCaller1_0.mm */,
+			);
+			path = Callers;
+			sourceTree = "<group>";
+		};
+		BA37D3DF23BF57120074C96B /* CTObjectiveCRuntimeAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				BA37D3E023BF57560074C96B /* CTBlockDescription.h */,
+				BA37D3E123BF57560074C96B /* CTBlockDescription.m */,
+				BA37D3E323BF578B0074C96B /* CTObjectiveCRuntimeAdditions-Prefix.pch */,
+			);
+			path = CTObjectiveCRuntimeAdditions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA37D3A423BF501D0074C96B /* VaridictHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37D3C623BF501E0074C96B /* Build configuration list for PBXNativeTarget "VaridictHandler" */;
+			buildPhases = (
+				BA37D3A123BF501D0074C96B /* Sources */,
+				BA37D3A223BF501D0074C96B /* Frameworks */,
+				BA37D3A323BF501D0074C96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaridictHandler;
+			productName = VaridictHandler;
+			productReference = BA37D3A523BF501D0074C96B /* VaridictHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA37D3BC23BF501E0074C96B /* VaridictHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37D3C923BF501E0074C96B /* Build configuration list for PBXNativeTarget "VaridictHandlerTests" */;
+			buildPhases = (
+				BA37D3B923BF501E0074C96B /* Sources */,
+				BA37D3BA23BF501E0074C96B /* Frameworks */,
+				BA37D3BB23BF501E0074C96B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA37D3BF23BF501E0074C96B /* PBXTargetDependency */,
+			);
+			name = VaridictHandlerTests;
+			productName = VaridictHandlerTests;
+			productReference = BA37D3BD23BF501E0074C96B /* VaridictHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA37D39D23BF501D0074C96B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Neodata Co., Ltd";
+				TargetAttributes = {
+					BA37D3A423BF501D0074C96B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BA37D3BC23BF501E0074C96B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = BA37D3A423BF501D0074C96B;
+					};
+				};
+			};
+			buildConfigurationList = BA37D3A023BF501D0074C96B /* Build configuration list for PBXProject "VaridictHandler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA37D39C23BF501D0074C96B;
+			productRefGroup = BA37D3A623BF501D0074C96B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA37D3A423BF501D0074C96B /* VaridictHandler */,
+				BA37D3BC23BF501E0074C96B /* VaridictHandlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA37D3A323BF501D0074C96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37D3B523BF501E0074C96B /* LaunchScreen.storyboard in Resources */,
+				BA37D3B223BF501E0074C96B /* Assets.xcassets in Resources */,
+				BA753D7723C4237D00073225 /* README.md in Resources */,
+				BA753D7623C4237D00073225 /* LICENSE in Resources */,
+				BA37D3B023BF501D0074C96B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37D3BB23BF501E0074C96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA37D3A123BF501D0074C96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37D3AD23BF501D0074C96B /* ViewController.m in Sources */,
+				BA37D3B823BF501E0074C96B /* main.mm in Sources */,
+				BA37D3E523BF5DFB0074C96B /* CTBlockDescription.m in Sources */,
+				BA753D6A23C30DD700073225 /* Call.mm in Sources */,
+				BA753D5E23C2406100073225 /* NDCaller0_1.mm in Sources */,
+				BA753D5F23C2406300073225 /* NDCaller0_0.mm in Sources */,
+				BA753D6323C2448300073225 /* NDCaller1_0.mm in Sources */,
+				BA753D6023C243DF00073225 /* NDCaller.mm in Sources */,
+				BA37D3AA23BF501D0074C96B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA37D3B923BF501E0074C96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA753D6C23C325E300073225 /* NDCallerTests.m in Sources */,
+				BA37D3C223BF501E0074C96B /* VaridictHandlerTests.mm in Sources */,
+				BA753D7023C3492A00073225 /* CallConsumerTests.mm in Sources */,
+				BA753D6E23C3487300073225 /* NDCallerConsumerTests.m in Sources */,
+				BA753D6823C306B500073225 /* CallTests.mm in Sources */,
+				BA753D7323C34A7300073225 /* ConsumerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA37D3BF23BF501E0074C96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA37D3A423BF501D0074C96B /* VaridictHandler */;
+			targetProxy = BA37D3BE23BF501E0074C96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA37D3AE23BF501D0074C96B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA37D3AF23BF501D0074C96B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA37D3B323BF501E0074C96B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA37D3B423BF501E0074C96B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA37D3C423BF501E0074C96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(PROJECT)/$(PROJECT).pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT)";
+			};
+			name = Debug;
+		};
+		BA37D3C523BF501E0074C96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT)/$(PROJECT).pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/$(PROJECT)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA37D3C723BF501E0074C96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = VaridictHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.VaridictHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA37D3C823BF501E0074C96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = VaridictHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.VaridictHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA37D3CA23BF501E0074C96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = VaridictHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.VaridictHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaridictHandler.app/VaridictHandler";
+			};
+			name = Debug;
+		};
+		BA37D3CB23BF501E0074C96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UKD7V9S9N;
+				INFOPLIST_FILE = VaridictHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neodata.VaridictHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaridictHandler.app/VaridictHandler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA37D3A023BF501D0074C96B /* Build configuration list for PBXProject "VaridictHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37D3C423BF501E0074C96B /* Debug */,
+				BA37D3C523BF501E0074C96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37D3C623BF501E0074C96B /* Build configuration list for PBXNativeTarget "VaridictHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37D3C723BF501E0074C96B /* Debug */,
+				BA37D3C823BF501E0074C96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37D3C923BF501E0074C96B /* Build configuration list for PBXNativeTarget "VaridictHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37D3CA23BF501E0074C96B /* Debug */,
+				BA37D3CB23BF501E0074C96B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA37D39D23BF501D0074C96B /* Project object */;
+}
